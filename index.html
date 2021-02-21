@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/portpolio.css">
+    
+    
+    <!-- saved from url=(0013)about:internet -->
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Heebo|Noto+Sans+KR" rel="stylesheet">
+
+    
+
+</head>
+<body>
+    <header class="header-area navbar-fade" id="header">
+        <nav class="navbar">
+            <a class="navbar-brand" id="navbarBrand">Ming's </a>
+            <a class="navbar-toggler" id="toggleBtn"><i class="fa fa-bars"></i></a>
+            <div class="navbar-menu" id="menu">
+                <div class="nav-item"><a class="nav-link" id="navbarAbout">about</a></div>
+                <div class="nav-item"><a class="nav-link" id="navbarService">service</a></div>
+                <div class="nav-item"><a class="nav-link" id="navbarPortfolio">portfolio</a></div>
+                <div class="nav-item"><a class="nav-link" id="navbarReview">review</a></div>    
+            </div>
+        </nav>
+    </header>
+
+    <div class="section-container">
+        <div class="welcome-area">
+            <div class="container">
+                <div class="image-slide fade">
+                    <img src="img/q1.jpg" alt="">
+                </div>
+                <div class="image-slide fade">
+                    <img src="img/q2.jpg" alt="">
+                </div>
+                <div class="image-slide fade">
+                    <img src="img/q7.jpg" alt="">
+                </div>
+                <div class="image-slide fade">
+                    <img src="img/q5.jpg" alt="">
+                </div>
+
+                <a class="image-prev" id="imagePrev">&#10094;</a>
+                <a class="image-next" id="imageNext">&#10095;</a>
+
+                <div class="dots">
+                    <span class="dot" id="firstDot"></span>
+                    <span class="dot" id="secondDot"></span>
+                    <span class="dot" id="thirdDot"></span>
+                    <span class="dot" id="forthDot"></span>
+                </div>
+            </div>
+        </div>
+
+        <section class="about-area" id="about">
+            <div class="title">
+                about
+            </div>
+            <div class="picture">
+                <img src="img/mins.jpg" alt="">
+                <div class="name">KIM MIN JAE</div>
+                <div class="description">JUNIOR DEVELOPER</div>
+            </div>
+            <div class="text">
+                <div class="intro">
+                    안녕하세요. 끊임없는 성장을 추구하는 열정있는 주니어 개발자입니다. 먼저 소중한 시간을 내어 제 포트폴리오 사이트에 방문해 주셔서 감사합니다. 반응형 포트폴리오 홈페이지이며 아직 부족한점이 많지만 늦게 시작한 만큼 더욱 열정적으로 할 준비가 되어 있습니다. 궁금하신 점이 있으시다면 언제든지 편하게 연락주세요:)
+                </div>
+                <ul>
+                    <li>
+                        <div class="info">
+                            <i class="far fa-calendar-alt"></i>23st january, 1995
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <i class="fa fa-phone"></i> 010-6689-3103
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info"> 
+                            <i class="fa fa-envelope"></i> minjae866@naver.com
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <i class="fa fa-home"></i> 101-2204 Dusan we've, 5, Seongnamil-ro, Dong-gu, Busan, Republic of Korea
+                        </div>
+                    </li>
+                </ul>
+                <div class="sns">
+                    <a>
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a>
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a>
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a>
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    <a>
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="services-area" id="service">
+            <div class="title">
+                SERVICES
+            </div>
+            <div class="container">
+                <div class="item">
+                    <div class="icon"><span><i class="fab fa-html5"></i></span></div>
+                    <div class="service">HTML</div>
+                    <div class="content">HTML은 Hyper Text Markup Language의 약자로 웹브라우저를 통해 사용자에게 보이는 웹 문서를 작성하기 위한 언어입니다.</div>
+                </div>
+                <div class="item">
+                    <div class="icon"><span><i class="fab fa-css3"></i></span></div>
+                    <div class="service">CSS</div>
+                    <div class="content">CSS는 Cascading Style Sheet의 약자로 CSS는 문서의 콘텐츠와 레이아웃, 글꼴 및 시각적 요소들로 표현되는 문서의 디자인을 분리하기 위해 필요한 언어입니다.</div>
+                </div>
+                <div class="item">
+                    <div class="icon"><span><i class="fas fa-database"></i></span></div>
+                    <div class="service">JAVASCRIPT</div>
+                    <div class="content">자바스크립트는 객체 기반의 스크립트 프로그래밍 언어입니다. 이 언어는 웹 브라우저 내에서 주로 사용하며,<br> 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있습니다.<br> 저는 이러한 자바스크립트를 이용하여 웹페이지를 개발하고 있습니다.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-area" id="portfolio">
+            <div class="title">
+                PORTFOLIO
+            </div>
+            <div class="filter">
+                <ul class="list">
+                    <li class="listItem active" id="all">
+                        ALL
+                    </li>
+                    <li class="listItem" id="uiux">
+                        UI/UX
+                    </li>
+                    <li class="listItem" id="java">
+                        
+                    </li>
+                    <li class="listItem" id="db">
+                        
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="filterItem db">
+                    <div class="image">
+                        <div class="overlay"><i class="far fa-image"></i></div>
+                        <img src="img/nike2.PNG" alt="">
+                    </div>
+                    <div class="main">
+                        NIKE AIRMAX
+                    </div>
+                    <div class="sub">
+                        <a href="http://cn7.dothome.co.kr/nike.html">VIEW SITE</a>
+                    </div>
+                    <div class="text">
+                        
+                    </div>
+                </div>
+                <div class="filterItem java">
+                    <div class="image">
+                        <div class="overlay"><i class="far fa-image"></i></div>
+                        <img src="img/jeep1.PNG" alt="">
+                    </div>
+                    <div class="main">
+                        JEEP CHEROKEE
+                    </div>
+                    <div class="sub">
+                        <a href="http://cn7.dothome.co.kr/jeep.html">VIEW SITE</a>
+                    </div>
+                    <div class="text">
+                        
+                    </div>
+                </div>
+                <div class="filterItem db ">
+                    <div class="image">
+                        <div class="overlay"><i class="far fa-image"></i></div>
+                        <img src="img/tot.JPG" alt="">
+                    </div>
+                    <div class="main">
+                        Tottenham hotspur
+                    </div>
+                    <div class="sub">
+                        <a href="http://cn7.dothome.co.kr/tottenham.html">VIEW SITE</a>
+                    </div>
+                    <div class="text">
+                        
+                    </div>
+                </div>
+                
+                
+        </section>
+
+        <section class="review-area" id="review">
+            <div class="title">
+                Other works
+            </div>
+            <div class="container">
+
+                <a class="review-prev" id="reviewPrev">&#10094;</a>
+                <a class="review-next" id="reviewNext">&#10095;</a>
+                
+
+                <div class="review-slide res-show">
+                    <div class="image">
+                        <img src="img/ODDEVEN.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        ODDEVEN CAFE
+                    </div>
+                    <div class="job">
+                        
+                    </div>
+                    <div class="text">
+                        <i></i>
+                    </div>
+                    <div class="rating">
+                        
+                    </div>
+                </div>
+                <div class="review-slide show">
+                    <div class="image" id="top">
+                        <img src="img/COLOR FESTIVAL.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        COLOR FESTIVAL
+                    </div>
+                    <div class="job">
+                        
+                    </div>
+                    <div class="text">
+                        <i></i>
+                    </div>
+                    <div class="rating">
+                        
+                    </div>
+                </div>
+                <div class="review-slide show">
+                    <div class="image">
+                        <img src="img/HAPPY CHRISTMAS.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        Happy Christmas
+                    </div>
+                    <div class="job">
+                        
+                    </div>
+                    <div class="text">
+                        <i></i>
+                    </div>
+                    <div class="rating">
+                        
+                    </div>
+                </div>
+                <div class="review-slide hide">
+                    <div class="image">
+                        <img src="img/fly to the sky.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        FLY TO THE SKY
+                    </div>
+                    <div class="job">
+                        
+                    </div>
+                    <div class="text">
+                        <i></i>
+                    </div>
+                    <div class="rating">
+                        
+                    </div>
+                </div>
+                <div class="review-slide hide">
+                    <div class="image">
+                        <img src="img/beuti.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        아름다운 하모니
+                    </div>
+                    <div class="job">
+                        
+                    </div>
+                    <div class="text">
+                        <i></i>
+                    </div>
+                    <div class="rating">
+                        
+                    </div>
+                </div>
+                <div class="review-slide hide">
+                    <div class="image">
+                        <img src="img/galaxy.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        Galaxy S20 FE
+                    </div>
+                    <div class="job">
+                        
+                    </div>
+                    <div class="text">
+                        <i></i>
+                    </div>
+                    <div class="rating">
+                        
+                    </div>
+                </div>
+                <div class="review-slide hide">
+                    <div class="image">
+                        <img src="img/home baking.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        홈베이킹 신청서
+                    </div>
+                    <div class="job">
+                        
+                    </div>
+                    <div class="text">
+                        <i></i>
+                    </div>
+                    <div class="rating">
+                        
+                    </div>
+                </div>
+                <div class="review-slide hide">
+                    <div class="image">
+                        <img src="img/card.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        CARD UI (SNS)
+                    </div>
+                    <div class="job">
+                        
+                    </div>
+                    <div class="text">
+                        <i></i>
+                    </div>
+                    <div class="rating">
+                        
+                    </div>
+                </div>
+                
+                
+             
+
+
+
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="footer-area">
+        <div class="sns">
+            <div class="item" id="facebook"><i class="fab fa-facebook-square"></i></div>
+            <div class="item" id="twitter"><i class="fab fa-twitter"></i></div>
+            <div class="item" id="linkedin"><i class="fab fa-linkedin"></i></div>
+            <div class="item" id="google"><i class="fab fa-google-plus"></i></div>
+            <div class="item" id="instagram"><i class="fab fa-instagram"></i></div>
+        </div>
+        <div class="info">
+            <p>Copyright &#169; 2021 Test Corp. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="portfolioModal" class="modal">
+        <span class="close" id="modalClose">&times;</span>
+        <div class="container">
+            <img id="modalImage" src="">
+            <div id="modalMain" class="modal-main"></div>
+            <div id="modalSub" class="modal-sub"></div>
+            <div id="modalText" class="modal-text"></div>
+        </div>
+    </div>
+
+    <!-- user script -->
+    <script src="js/portfolio.js"></script>
+
+
+</body>
+</html>
