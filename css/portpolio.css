@@ -212,7 +212,7 @@ ul {
 
 .welcome-area > .container > .image-prev:hover,
 .welcome-area > .container > .image-next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #000000cc;
 }
 
 .welcome-area > .container > .dots {
@@ -230,15 +230,6 @@ ul {
     background-color: #717171;
     display: inline-block;
     transition: background-color 0.6s;
-}
-
-.musteat {
-    width: 1500px;
-    height: 1200px;
-    margin-left: -200px;
-    display: block;
-    background-color: black;
-    
 }
 
 .welcome-area > .container > .dots > .dot.active,
@@ -268,6 +259,16 @@ section {
     padding: 100px 0;
 }
 
+.musteat {
+    width: 600px;
+    height: 1200px;
+    margin-left: -200px;
+    display: block;
+    background-color: black;
+    background-size: cover;
+    margin: auto;
+}
+
 .title {
     font-size: 50px;
     font-weight: bold;
@@ -285,6 +286,8 @@ section {
     background-image: linear-gradient(to right, royalblue, aquamarine);
 }
 
+
+
 /* about area */
 .about-area {
     height: auto;
@@ -295,6 +298,12 @@ section {
     display: block;
     text-align: center;
     padding: 20px;
+    
+}
+
+.picture img {
+    height: 400px;
+    
 }
 
 @media (min-width: 992px) {
@@ -305,8 +314,7 @@ section {
 }
 
 .about-area > .picture > img {
-    max-width: 300px;
-    max-height: 300px;
+    
     border-radius: 15px;
 }
 
@@ -314,6 +322,7 @@ section {
     font-size: 25px;
     text-align: center;
     padding: 15px 0;
+    font-weight: bold;
 }
 
 .about-area > .picture > .description {
@@ -335,15 +344,22 @@ section {
 }
 
 .about-area > .text * {
-    font-size: 16px;
+    font-size: 17px;
+    
+    
+    
 }
 
 .about-area > .text > .intro { 
     padding: 20px 0;
     font-family: 'Noto Sans KR', sans-serif;
     letter-spacing: 1.5px;
+    margin-top: -200px;
+      
+    font-weight: bold;
+    position: absolute;
+    
 }
-
 .about-area > .text > ul {
     padding: 20px 0;
 }
@@ -455,10 +471,12 @@ section {
 
 .portfolio-area > .container {
     padding-top: 50px;
+    background-color:
 }
 
 .portfolio-area > .container > .filterItem {
-    display: none;
+    background-color: ;
+    display: block;
     width: calc(100% - 40px);
     margin: 20px;
     text-align: center;
@@ -498,7 +516,7 @@ section {
 .portfolio-area > .container > .filterItem > .image:hover > .overlay {
     background-image: linear-gradient(to right, royalblue, aquamarine);
     opacity: 0.9;
-    left: 40px;
+    top: px;
 }
 
 .portfolio-area > .container > .filterItem > .image:hover > .overlay > i {
@@ -529,6 +547,8 @@ section {
 .portfolio-area > .container > .filterItem > .text {
     display: none;
 }
+
+.musteat
 
 #portfolioModal {
     display: none;
