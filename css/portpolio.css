@@ -27,6 +27,25 @@ ul {
     list-style-type: none;
 }
 
+.imgtext {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    font-size: 65px;
+    margin-left: 30px;
+    margin-top: 400px;
+    text-align: left;
+}
+
+.imgtext1 {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    text-align: left;
+    margin-top: 600px;
+    margin-left: 30px;
+}
+
 /* HEADER */
 .header-area {
     position: relative;
