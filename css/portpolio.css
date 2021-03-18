@@ -649,7 +649,7 @@ button{
   }
   button:hover{
     background:#fff;
-    color:#1AAB8A;
+    color: #f8585b;
   }
   button:before,button:after{
     content:'';
@@ -658,7 +658,7 @@ button{
     right:0;
     height:2px;
     width:0;
-    background: #1AAB8A;
+    background: #f8585b;
     transition:400ms ease all;
   }
   button:after{
