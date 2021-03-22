@@ -22,6 +22,17 @@ body {
     margin-top: 700px;
 }
 
+.uxclick {
+    width: 200px;
+    height: 100px;
+    margin-top: -60px;
+    margin-left: 400px;
+    
+    display: block;
+    
+
+}
+
 img {
     width: 100%;
     height: 100%;
