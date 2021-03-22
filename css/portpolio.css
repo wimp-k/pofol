@@ -4,6 +4,10 @@
     font-size: 0;
 }
 
+html, body {
+    cursor: url(../img/normal\ select.cur),auto;
+}
+
 body {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
