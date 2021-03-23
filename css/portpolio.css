@@ -22,6 +22,7 @@ body {
     -moz-box-sizing: border-box;
     word-break: break-all;
     font-family: 'Heebo' , sans-serif;
+    max-width: auto;
 }
 
 .bg2 {
